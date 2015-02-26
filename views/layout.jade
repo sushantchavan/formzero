@@ -1,0 +1,13 @@
+doctype html
+html
+	head
+		title= title
+		link(rel='stylesheet', href='/stylesheets/style.css')
+		script(type="text/javascript").
+			var f = !{JSON.stringify(form)};
+			var u = !{JSON.stringify(user)};
+		script(type='text/javascript', src='/plugins/jquery.min.js')
+		script(type='text/javascript' src='/javascripts/index.js')
+
+	body
+		block content
