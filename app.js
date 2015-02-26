@@ -37,7 +37,7 @@ app.use(function(req, res, next) {
 
 // database
 
-mongoose.connect(process.env.MONGOLAB_URI:);
+mongoose.connect(process.env.MONGOLAB_URI);
 // error handlers
 
 // development error handler
